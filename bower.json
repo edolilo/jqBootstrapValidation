@@ -1,0 +1,29 @@
+{
+  name: 'jqBootstrapValidation-BS3',
+  version: '1.3.7',
+  main: [
+    './dist/jqBootstrapValidation-1.3.7.min.js'
+  ],
+  dependencies: {
+    jquery: '*'
+  },
+  description: 'Adaptation de jqBootstrapValidation pour Bootstrap3',
+  keywords: [
+    'Bootstrap3',
+    'Validator',
+    'Form'
+  ],
+  authors: [
+    'Fork reactiveraven'
+  ],
+  license: 'MIT',
+  homepage: '',
+  ignore: [
+    '**/.*',
+    'node_modules',
+    'bower_components',
+    'test',
+    'tests'
+  ]
+}
+
